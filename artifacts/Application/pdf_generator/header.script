@@ -1,0 +1,5 @@
+<!-- Signature Pad -->
+<script src="https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js"></script>
+<script src="/public/highsuite/modules/exporting.js"></script>
+
+<script src="/media/root/PDF%20Generator%20App/push.min.js"></script>

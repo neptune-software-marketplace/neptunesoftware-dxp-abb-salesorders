@@ -1,0 +1,75 @@
+{
+	"id": "1bcec1c2-12bb-ec11-997e-0050f2c33e69",
+	"createdAt": "2022-04-13T10:16:21.543Z",
+	"createdBy": "cezar",
+	"fields": [
+		{
+			"id": "6a99557f-5dd2-42e4-8739-c927827dfbd6",
+			"fieldName": "ORDERNUMBER",
+			"fieldType": "text",
+			"isNullable": false
+		},
+		{
+			"id": "4cbb106d-753c-48e0-97e8-16b4ec870f3c",
+			"fieldName": "ITEMNAME",
+			"fieldType": "text"
+		},
+		{
+			"id": "3b84c5f8-02ef-460a-9ae2-e0390099e0bc",
+			"fieldName": "ITEMNUMBER",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "0fd39a39-14d7-409d-be5d-eae2563f2b6a",
+			"fieldName": "ITEMQUANTITY",
+			"fieldType": "text"
+		},
+		{
+			"id": "d51d0d83-5ca8-4b6e-f9a8-122c98478e28",
+			"fieldName": "MATERIAL",
+			"fieldType": "text"
+		},
+		{
+			"id": "3c21e2ab-fb45-41fd-c213-b9c7b28c526d",
+			"fieldName": "DESCRIPTION",
+			"fieldType": "text"
+		},
+		{
+			"id": "86b5db73-692d-4bf4-857d-9564e00432aa",
+			"fieldName": "DOCTYPE",
+			"fieldType": "text"
+		},
+		{
+			"id": "09b60642-ab7e-46e0-e6f3-21a9c435ef90",
+			"fieldName": "STATUS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "2c2d519e-dcca-49b2-f33c-fe4cf3fd9530",
+			"fieldName": "DIVISION",
+			"fieldType": "text"
+		},
+		{
+			"id": "4a0091ab-c879-41d3-8042-592af058cef7",
+			"fieldName": "SALESUNIT",
+			"fieldType": "text"
+		},
+		{
+			"id": "3ea4df67-a91b-4971-a2dc-9125360d2a00",
+			"fieldName": "CURRENCY",
+			"fieldType": "text"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "pdf_orders_data",
+	"description": null,
+	"ver": "23.1.25.1052",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "03473732-9e9c-ed11-994a-0022489f9953",
+	"rolesRead": [],
+	"rolesWrite": []
+}

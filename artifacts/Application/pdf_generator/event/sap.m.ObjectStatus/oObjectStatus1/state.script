@@ -1,0 +1,14 @@
+if (typeof STATUS === "undefined" || STATUS === null || STATUS === "") { return; }    
+var formattedText = STATUS; 
+
+if (STATUS === "Rejected"){
+    var formattedText = "Error"; 
+}
+if (STATUS === "Pending"){
+    var formattedText = "Warning"; 
+}
+if (STATUS === "Approved"){
+    var formattedText = "Success"; 
+}
+
+return formattedText;

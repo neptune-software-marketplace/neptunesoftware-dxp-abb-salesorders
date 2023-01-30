@@ -1,0 +1,36 @@
+oNUIOffcanvasDetails.show();
+
+
+setTimeout(function() {
+
+    oHTMLObject.setContent("<canvas id='signature-pad' class='signature-pad' style='border:1px solid'></canvas>");
+    //oNUIOffcanvasDetails.setPlacement("Bottom");
+    var canvas = document.getElementById('signature-pad');
+    console.log(canvas);
+    signaturePad = new SignaturePad(canvas);
+    
+
+}, 200);
+
+
+
+var context = oEvent.oSource.getBindingContext();  
+
+var data = context.getObject();
+
+console.log(data);
+
+
+oText.setText(data.id);
+oTextSD_Doc.setText(data.ORDERNUMBER);
+oTextMaterial.setText(data.MATERIAL);
+oTextName.setText(data.ITEMNAME);
+
+oTextITM_Number.setText(data.ITEMNUMBER);
+oTextDescription.setText(data.DESCRIPTION);
+oTextDOC_Type.setText(data.DOCTYPE);
+
+oTextDivision.setText(data.DIVISION);
+oTextSales_Unit.setText(data.SALESUNIT);
+oTextCurrency.setText(data.CURRENCY);
+

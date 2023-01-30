@@ -1,0 +1,2 @@
+apioRestAPIGETOrders();
+sap.m.MessageToast.show("SAP List updated");

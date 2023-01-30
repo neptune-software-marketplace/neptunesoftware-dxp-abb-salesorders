@@ -1,0 +1,22 @@
+ var options = {
+    parameters: {
+        "where": JSON.stringify({"id" : oText.getText()}) // Optional 
+    },
+    data: {
+        "STATUS": "Approved"
+    }
+};
+
+apioRestAPIPostOrder(options);
+
+sap.m.MessageToast.show("Order Approved");
+
+oNUIOffcanvasDetails.hide();
+
+
+setTimeout(function() {
+
+    oButtonRefresh.firePress();
+
+
+}, 600);

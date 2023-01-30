@@ -1,0 +1,384 @@
+{
+	"id": "b7a8d7d1-13bb-ec11-997e-0050f2c33e69",
+	"createdAt": "2022-04-13T10:23:55.110Z",
+	"createdBy": "cezar",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "06d55f6a-ebd1-4cae-bc78-d98f1ec201f7",
+			"path": "/pdf_orders_data",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "pdf_orders_data"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "0c338504-520e-4022-f4c0-8402c6fe5881",
+			"path": "/pdf_orders_data",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "pdf_orders_data"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "pdf_orders_data"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "39234989-8398-45cc-8de7-3db4064f11de",
+			"path": "/pdf_orders_data",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "pdf_orders_data"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "pdf_orders_data"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "7a439d71-ae52-413d-876b-856e524cc5d7",
+			"path": "/pdf_orders_data",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "pdf_orders_data"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "f6a86a68-3a0b-4531-ce69-2ce665d9d8d8",
+			"path": "/pdf_orders_data/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "e923d5bd-db84-4c75-c57a-55f0bd23df27",
+			"name": "pdf_orders_data",
+			"properties": [
+				{
+					"id": "e3f2d999-6197-455c-eb4f-0e2b5bf85128",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "7d2e0ee8-eedd-4af3-c60f-2c4cbe16cb30",
+					"parent": "",
+					"name": "ORDERNUMBER",
+					"objectType": "string"
+				},
+				{
+					"id": "6ee4b49b-0faf-4f83-a7af-2380d3790bc8",
+					"parent": "",
+					"name": "ITEMNAME",
+					"objectType": "string"
+				},
+				{
+					"id": "08f3224b-645b-42d1-c68c-53b1c8c735d5",
+					"parent": "",
+					"name": "ITEMNUMBER",
+					"objectType": "string"
+				},
+				{
+					"id": "2d3750cc-ba58-4e7f-f0d7-cb95a2c7075c",
+					"parent": "",
+					"name": "ITEMQUANTITY",
+					"objectType": "string"
+				},
+				{
+					"id": "04e52862-f1b2-4730-cc7d-dbcb788eb15b",
+					"parent": "",
+					"name": "MATERIAL",
+					"objectType": "string"
+				},
+				{
+					"id": "0aa59f0f-73d8-408a-e7c5-04dac8a5fdac",
+					"parent": "",
+					"name": "DESCRIPTION",
+					"objectType": "string"
+				},
+				{
+					"id": "b8075964-e9c6-4223-bf5b-fdb9238560cf",
+					"parent": "",
+					"name": "DOCTYPE",
+					"objectType": "string"
+				},
+				{
+					"id": "70945038-f043-4520-9a5f-728ca35cde1b",
+					"parent": "",
+					"name": "STATUS",
+					"objectType": "string"
+				},
+				{
+					"id": "35d876c8-3924-4f80-81c2-046a979e863d",
+					"parent": "",
+					"name": "DIVISION",
+					"objectType": "string"
+				},
+				{
+					"id": "1025520b-ccce-4a51-b8bc-232b0203d8af",
+					"parent": "",
+					"name": "SALESUNIT",
+					"objectType": "string"
+				},
+				{
+					"id": "84df231e-b17e-4a1c-cb43-fd012a116ae1",
+					"parent": "",
+					"name": "CURRENCY",
+					"objectType": "string"
+				},
+				{
+					"id": "0ca59f7f-fb8c-4e6c-954c-88ca3aeeb19e",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "522cab1f-034d-45b4-8ba3-a86c10837952",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created By",
+					"objectType": "string"
+				},
+				{
+					"id": "03bb016e-6b5c-4104-bdfe-52d2fae7769e",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "2d1a6f25-1523-4e4e-ba70-62b0b957fd90",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated By",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "c69b1e1c-06dd-4d70-e7d3-23e20d0f2d9f",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "d69ea8dd-a371-45ec-c3c8-79f0e027148d",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "862b4f61-34e7-4af6-c922-5317cff99615",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "b8f3e255-0009-4a23-fe42-c16fe9fcccfd",
+			"name": "count",
+			"properties": [
+				{
+					"id": "000248c9-0712-4def-92ba-28fd69404bd8",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "pdf_order_data_API",
+	"endpoint": "/api/entity",
+	"ver": "23.1.25.1053",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "03473732-9e9c-ed11-994a-0022489f9953",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

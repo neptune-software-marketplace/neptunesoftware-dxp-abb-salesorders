@@ -1,0 +1,14 @@
+.offCanvas {
+    min-width: 25%;
+}
+
+.toolbarSeparator{
+    height: 11rem;
+}
+.sapMITBContent {
+    padding: 0.1rem;
+}   
+
+/* .sapMHBox {
+    background-color: white;
+} */

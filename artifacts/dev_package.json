@@ -1,0 +1,71 @@
+{
+	"id": "03473732-9e9c-ed11-994a-0022489f9953",
+	"createdAt": "2023-01-25T10:51:18.960Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-salesorders"
+	},
+	"name": "neptunesoftware-dxp-abb-salesorders",
+	"description": "Sales orders with PDF generation ",
+	"ver": "23.1.30.1044",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "5d9e36d9-71c1-ec11-997e-0050f279c413",
+			"application": "pdf_generator",
+			"title": "",
+			"description": "sales order demo"
+		}
+	],
+	"api": [
+		{
+			"id": "b7a8d7d1-13bb-ec11-997e-0050f2c33e69",
+			"name": "pdf_order_data_API",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "1bcec1c2-12bb-ec11-997e-0050f2c33e69",
+			"name": "pdf_orders_data",
+			"description": null
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [
+		{
+			"id": "2547bbc6-93b1-ec11-997e-0050f2c33e69",
+			"application": "elearning_pdf_demo",
+			"description": ""
+		}
+	],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "384423f4-75c1-ec11-997e-0050f279c413",
+			"description": null,
+			"name": "Sales Orders - PDF Generator"
+		}
+	],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"media_library": []
+}
