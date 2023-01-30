@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-salesorders",
 	"description": "Sales orders with PDF generation ",
-	"ver": "23.1.30.1044",
+	"ver": "23.1.30.1128",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -67,5 +67,13 @@
 	"wf_definition": [],
 	"connector": [],
 	"events": [],
-	"media_library": []
+	"media_library": [
+		{
+			"id": "E5E2B1FA-6FC1-EC11-997E-0050F279C413",
+			"updatedAt": "2023-01-30T14:00:16.186Z",
+			"name": "PDF Generator App",
+			"parent": null,
+			"package": "03473732-9E9C-ED11-994A-0022489F9953"
+		}
+	]
 }
