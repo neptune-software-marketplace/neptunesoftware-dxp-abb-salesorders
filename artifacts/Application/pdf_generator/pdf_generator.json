@@ -2828,27 +2828,6 @@
 														}
 													],
 													"data": []
-												},
-												{
-													"fieldNo": "51198297-bb17-465b-c6c1-0972ff7f6e71",
-													"fieldName": "oButton",
-													"fieldParent": "a9406a91-aa6c-4cae-e3ac-80927ab3bb62",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"customComponent": false,
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
-															"language": "javascript",
-															"translation": []
-														}
-													],
-													"data": []
 												}
 											]
 										},
@@ -3206,7 +3185,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.1.30.1356",
+	"ver": "23.2.7.159",
 	"application": "pdf_generator",
 	"title": "",
 	"description": "sales order demo",

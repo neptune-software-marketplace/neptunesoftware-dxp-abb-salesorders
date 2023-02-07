@@ -8,7 +8,7 @@ var PDFData = { data: final_data};
 
 $.ajax({
     type: "POST",
-    url: "/pdf/ELEARNING_PDF_DEMO",
+    url: "/pdf/elearning_pdf_demo",
     data: PDFData,
     success: function(data) {
         // elem.src = "data:application/pdf;base64," + data;
