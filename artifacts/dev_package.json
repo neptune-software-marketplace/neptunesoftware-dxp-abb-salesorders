@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-salesorders",
 	"description": "Sales orders with PDF generation ",
-	"ver": "23.1.30.141",
+	"ver": "23.1.30.1516",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -55,8 +55,20 @@
 			"name": "Sales Orders - PDF Generator"
 		}
 	],
-	"category": [],
-	"launchpad": [],
+	"category": [
+		{
+			"id": "927614dd-f5a6-ed11-a8e0-0022489f97c8",
+			"description": null,
+			"name": "Sales_orders"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "61c496ee-f5a6-ed11-a8e0-0022489f97c8",
+			"name": "Sales Orders",
+			"description": null
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],
