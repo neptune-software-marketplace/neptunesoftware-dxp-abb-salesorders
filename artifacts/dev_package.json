@@ -14,7 +14,10 @@
 			"id": "5d9e36d9-71c1-ec11-997e-0050f279c413",
 			"application": "pdf_generator",
 			"title": "",
-			"description": "sales order demo"
+			"description": "sales order demo",
+			"package": {
+				"id": "03473732-9e9c-ed11-994a-0022489f9953"
+			}
 		}
 	],
 	"api": [
@@ -79,13 +82,7 @@
 	"wf_definition": [],
 	"connector": [],
 	"events": [],
-	"media_library": [
-		{
-			"id": "E5E2B1FA-6FC1-EC11-997E-0050F279C413",
-			"updatedAt": "2023-01-30T14:00:16.186Z",
-			"name": "PDF Generator App",
-			"parent": null,
-			"package": "03473732-9E9C-ED11-994A-0022489F9953"
-		}
-	]
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
 }

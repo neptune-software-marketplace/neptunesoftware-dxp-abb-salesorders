@@ -128,7 +128,7 @@
 	{
 		"id": "9bd042e1-eae7-40d7-83dd-c9b538ae300d",
 		"createdAt": "1650546083043",
-		"updatedAt": "1675775050894",
+		"updatedAt": "1709034946388",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"ORDERNUMBER": "0009853",
@@ -138,7 +138,7 @@
 		"MATERIAL": "Plastic",
 		"DESCRIPTION": "K-43211",
 		"DOCTYPE": "GE",
-		"STATUS": "Pending",
+		"STATUS": "Approved",
 		"DIVISION": "UO",
 		"SALESUNIT": "TA",
 		"CURRENCY": "CHF"
@@ -234,9 +234,27 @@
 		"CURRENCY": "EUR"
 	},
 	{
+		"id": "32b8e9eb-48f1-44a6-bcb6-8bf3e75a749f",
+		"createdAt": "1709035031338",
+		"updatedAt": "1709035031338",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"ORDERNUMBER": "100",
+		"ITEMNAME": "Gear",
+		"ITEMNUMBER": null,
+		"ITEMQUANTITY": "5",
+		"MATERIAL": "Metal",
+		"DESCRIPTION": "Rock Solid",
+		"DOCTYPE": "5678",
+		"STATUS": "Pending",
+		"DIVISION": "North",
+		"SALESUNIT": "1001",
+		"CURRENCY": "EUR"
+	},
+	{
 		"id": "08114771-5772-4fde-84fa-4af8dce29bf7",
 		"createdAt": "1650546083043",
-		"updatedAt": "1675775050894",
+		"updatedAt": "1709034978791",
 		"createdBy": "admin",
 		"updatedBy": "admin",
 		"ORDERNUMBER": "000253",
@@ -246,7 +264,7 @@
 		"MATERIAL": "Wood",
 		"DESCRIPTION": "D-2312",
 		"DOCTYPE": "TA",
-		"STATUS": "Pending",
+		"STATUS": "Approved",
 		"DIVISION": "HT",
 		"SALESUNIT": "16",
 		"CURRENCY": "NOK"

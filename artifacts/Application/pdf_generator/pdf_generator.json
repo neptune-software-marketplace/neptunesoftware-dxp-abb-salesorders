@@ -295,7 +295,7 @@
 															"attribute": "press",
 															"grouping": "Events",
 															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButtonStats/press.script",
+															"script": "file://event/sap.m.Button/oButtonStats/press.js",
 															"language": "javascript",
 															"translation": []
 														}
@@ -344,7 +344,7 @@
 															"attribute": "select",
 															"grouping": "Events",
 															"value": "Anonymous Function",
-															"script": "file://event/sap.m.SegmentedButton/oSegmentedButton/select.script",
+															"script": "file://event/sap.m.SegmentedButton/oSegmentedButton/select.js",
 															"language": "javascript",
 															"translation": []
 														}
@@ -1597,7 +1597,7 @@
 																			"attribute": "press",
 																			"grouping": "Events",
 																			"value": "Anonymous Function",
-																			"script": "file://event/sap.m.Button/oButtonReject/press.script",
+																			"script": "file://event/sap.m.Button/oButtonReject/press.js",
 																			"language": "javascript",
 																			"translation": []
 																		}
@@ -2876,7 +2876,7 @@
 									"attribute": "navButtonPress",
 									"grouping": "Events",
 									"value": "Anonymous Function",
-									"script": "file://event/sap.m.Page/oPageViewSalesOrderPDF/navButtonPress.script",
+									"script": "file://event/sap.m.Page/oPageViewSalesOrderPDF/navButtonPress.js",
 									"language": "javascript",
 									"translation": []
 								}
@@ -2959,7 +2959,7 @@
 									"attribute": "ajaxSuccess",
 									"grouping": "Events",
 									"value": "Anonymous Function",
-									"script": "file://event/neptune.restapi/oRestAPIPOST/ajaxSuccess.script",
+									"script": "file://event/neptune.restapi/oRestAPIPOST/ajaxSuccess.js",
 									"language": "javascript",
 									"translation": []
 								}
@@ -3033,7 +3033,7 @@
 							"fieldName": "Data",
 							"fieldParent": "bc85f26f-0f4b-4ed5-e6ef-7945ae22038f",
 							"fieldType": "neptune.Script",
-							"script": "file://script/neptune.Script/M/Data.script",
+							"script": "file://script/neptune.Script/M/Data.js",
 							"customComponent": false,
 							"request": [],
 							"response": [],
@@ -3045,7 +3045,7 @@
 							"fieldName": "Functions",
 							"fieldParent": "bc85f26f-0f4b-4ed5-e6ef-7945ae22038f",
 							"fieldType": "neptune.Script",
-							"script": "file://script/neptune.Script/M/Functions.script",
+							"script": "file://script/neptune.Script/M/Functions.js",
 							"customComponent": false,
 							"request": [],
 							"response": [],
@@ -3170,7 +3170,7 @@
 					"fieldName": "PDFURLconverter",
 					"fieldParent": 99999,
 					"fieldType": "neptune.Script",
-					"script": "file://script/neptune.Script/PDFURLconverter.script",
+					"script": "file://script/neptune.Script/PDFURLconverter.js",
 					"customComponent": false,
 					"request": [],
 					"response": [],
@@ -3209,8 +3209,9 @@
 	"ui5_language": "",
 	"ui5_url": "",
 	"cus_theme": "",
-	"css": "file:///css.script",
-	"header": "file:///header.script",
+	"css": "file:///css.css",
+	"compiledCss": null,
+	"header": "file:///header.html",
 	"manifest": "",
 	"globalScript": "",
 	"deleted": false,
@@ -3221,6 +3222,10 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
 	"apis": [
 		{
 			"id": "b7a8d7d1-13bb-ec11-997e-0050f2c33e69",
