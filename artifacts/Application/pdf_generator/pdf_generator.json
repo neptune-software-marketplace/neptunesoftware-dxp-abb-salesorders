@@ -42,16 +42,16 @@
 									"script": "",
 									"translation": [
 										{
-											"language": "CA",
-											"value": "Comandes de venda"
+											"language": "AR",
+											"value": "طلبات المبيعات"
 										},
 										{
 											"language": "BG",
 											"value": "Поръчки за продажба"
 										},
 										{
-											"language": "AR",
-											"value": "طلبات المبيعات"
+											"language": "CA",
+											"value": "Comandes de venda"
 										},
 										{
 											"language": "EN",
@@ -164,16 +164,16 @@
 															"script": "",
 															"translation": [
 																{
-																	"language": "CA",
-																	"value": "Afegeix"
+																	"language": "AR",
+																	"value": "يضيف"
 																},
 																{
 																	"language": "BG",
 																	"value": "Добавете"
 																},
 																{
-																	"language": "AR",
-																	"value": "يضيف"
+																	"language": "CA",
+																	"value": "Afegeix"
 																},
 																{
 																	"language": "EN",
@@ -367,16 +367,16 @@
 																	"script": "",
 																	"translation": [
 																		{
-																			"language": "CA",
-																			"value": "Tots"
+																			"language": "AR",
+																			"value": "الجميع"
 																		},
 																		{
 																			"language": "BG",
 																			"value": "всичко"
 																		},
 																		{
-																			"language": "AR",
-																			"value": "الجميع"
+																			"language": "CA",
+																			"value": "Tots"
 																		},
 																		{
 																			"language": "EN",
@@ -580,16 +580,16 @@
 											"script": "",
 											"translation": [
 												{
-													"language": "CA",
-													"value": "Detalls de l'encarrec"
+													"language": "AR",
+													"value": "تفاصيل الطلب"
 												},
 												{
 													"language": "BG",
 													"value": "подробности за поръчката"
 												},
 												{
-													"language": "AR",
-													"value": "تفاصيل الطلب"
+													"language": "CA",
+													"value": "Detalls de l'encarrec"
 												},
 												{
 													"language": "EN",
@@ -683,16 +683,16 @@
 																					"script": "",
 																					"translation": [
 																						{
-																							"language": "CA",
-																							"value": "Document SD:"
+																							"language": "AR",
+																							"value": "SD Doc:"
 																						},
 																						{
 																							"language": "BG",
 																							"value": "SD документ:"
 																						},
 																						{
-																							"language": "AR",
-																							"value": "SD Doc:"
+																							"language": "CA",
+																							"value": "Document SD:"
 																						},
 																						{
 																							"language": "EN",
@@ -767,16 +767,16 @@
 																					"script": "",
 																					"translation": [
 																						{
-																							"language": "CA",
-																							"value": "Material:"
+																							"language": "AR",
+																							"value": "مادة:"
 																						},
 																						{
 																							"language": "BG",
 																							"value": "Материал:"
 																						},
 																						{
-																							"language": "AR",
-																							"value": "مادة:"
+																							"language": "CA",
+																							"value": "Material:"
 																						},
 																						{
 																							"language": "EN",
@@ -824,16 +824,16 @@
 																					"script": "",
 																					"translation": [
 																						{
-																							"language": "CA",
-																							"value": "Nom:"
+																							"language": "AR",
+																							"value": "اسم:"
 																						},
 																						{
 																							"language": "BG",
 																							"value": "име:"
 																						},
 																						{
-																							"language": "AR",
-																							"value": "اسم:"
+																							"language": "CA",
+																							"value": "Nom:"
 																						},
 																						{
 																							"language": "EN",
@@ -922,16 +922,16 @@
 																					"script": "",
 																					"translation": [
 																						{
-																							"language": "CA",
-																							"value": "Número d'article:"
+																							"language": "AR",
+																							"value": "رقم الشيء:"
 																						},
 																						{
 																							"language": "BG",
 																							"value": "Номер на артикул:"
 																						},
 																						{
-																							"language": "AR",
-																							"value": "رقم الشيء:"
+																							"language": "CA",
+																							"value": "Número d'article:"
 																						},
 																						{
 																							"language": "EN",
@@ -986,16 +986,16 @@
 																					"script": "",
 																					"translation": [
 																						{
-																							"language": "CA",
-																							"value": "Descripció:"
+																							"language": "AR",
+																							"value": "وصف:"
 																						},
 																						{
 																							"language": "BG",
 																							"value": "Описание:"
 																						},
 																						{
-																							"language": "AR",
-																							"value": "وصف:"
+																							"language": "CA",
+																							"value": "Descripció:"
 																						},
 																						{
 																							"language": "EN",
@@ -1043,16 +1043,16 @@
 																					"script": "",
 																					"translation": [
 																						{
-																							"language": "CA",
-																							"value": "Tipus de document:"
+																							"language": "AR",
+																							"value": "نوع المستند:"
 																						},
 																						{
 																							"language": "BG",
 																							"value": "Тип на документа:"
 																						},
 																						{
-																							"language": "AR",
-																							"value": "نوع المستند:"
+																							"language": "CA",
+																							"value": "Tipus de document:"
 																						},
 																						{
 																							"language": "EN",
@@ -1141,16 +1141,16 @@
 																					"script": "",
 																					"translation": [
 																						{
-																							"language": "CA",
-																							"value": "Divisió:"
+																							"language": "AR",
+																							"value": "قسم:"
 																						},
 																						{
 																							"language": "BG",
 																							"value": "дивизия:"
 																						},
 																						{
-																							"language": "AR",
-																							"value": "قسم:"
+																							"language": "CA",
+																							"value": "Divisió:"
 																						},
 																						{
 																							"language": "EN",
@@ -1205,16 +1205,16 @@
 																					"script": "",
 																					"translation": [
 																						{
-																							"language": "CA",
-																							"value": "Unitat de vendes:"
+																							"language": "AR",
+																							"value": "قسم المبيعات:"
 																						},
 																						{
 																							"language": "BG",
 																							"value": "Търговско звено:"
 																						},
 																						{
-																							"language": "AR",
-																							"value": "قسم المبيعات:"
+																							"language": "CA",
+																							"value": "Unitat de vendes:"
 																						},
 																						{
 																							"language": "EN",
@@ -1262,16 +1262,16 @@
 																					"script": "",
 																					"translation": [
 																						{
-																							"language": "CA",
-																							"value": "Moneda:"
+																							"language": "AR",
+																							"value": "عملة:"
 																						},
 																						{
 																							"language": "BG",
 																							"value": "Валута:"
 																						},
 																						{
-																							"language": "AR",
-																							"value": "عملة:"
+																							"language": "CA",
+																							"value": "Moneda:"
 																						},
 																						{
 																							"language": "EN",
@@ -1335,16 +1335,16 @@
 																	"script": "",
 																	"translation": [
 																		{
-																			"language": "CA",
-																			"value": "Comentaris:"
+																			"language": "AR",
+																			"value": "تعليقات:"
 																		},
 																		{
 																			"language": "BG",
 																			"value": "коментари:"
 																		},
 																		{
-																			"language": "AR",
-																			"value": "تعليقات:"
+																			"language": "CA",
+																			"value": "Comentaris:"
 																		},
 																		{
 																			"language": "EN",
@@ -1437,16 +1437,16 @@
 																			"script": "",
 																			"translation": [
 																				{
-																					"language": "CA",
-																					"value": "Signatura:"
+																					"language": "AR",
+																					"value": "التوقيع:"
 																				},
 																				{
 																					"language": "BG",
 																					"value": "Подпис:"
 																				},
 																				{
-																					"language": "AR",
-																					"value": "التوقيع:"
+																					"language": "CA",
+																					"value": "Signatura:"
 																				},
 																				{
 																					"language": "EN",
@@ -1518,16 +1518,16 @@
 																			"script": "",
 																			"translation": [
 																				{
-																					"language": "CA",
-																					"value": "Aprovar"
+																					"language": "AR",
+																					"value": "يوافق"
 																				},
 																				{
 																					"language": "BG",
 																					"value": "одобрявам"
 																				},
 																				{
-																					"language": "AR",
-																					"value": "يوافق"
+																					"language": "CA",
+																					"value": "Aprovar"
 																				},
 																				{
 																					"language": "EN",
@@ -1569,16 +1569,16 @@
 																			"script": "",
 																			"translation": [
 																				{
-																					"language": "CA",
-																					"value": "Rebutjar"
+																					"language": "AR",
+																					"value": "رفض"
 																				},
 																				{
 																					"language": "BG",
 																					"value": "Отхвърляне"
 																				},
 																				{
-																					"language": "AR",
-																					"value": "رفض"
+																					"language": "CA",
+																					"value": "Rebutjar"
 																				},
 																				{
 																					"language": "EN",
@@ -2118,16 +2118,16 @@
 									"script": "",
 									"translation": [
 										{
-											"language": "CA",
-											"value": "Nova comanda de venda"
+											"language": "AR",
+											"value": "طلب مبيعات جديد"
 										},
 										{
 											"language": "BG",
 											"value": "Нова поръчка за продажба"
 										},
 										{
-											"language": "AR",
-											"value": "طلب مبيعات جديد"
+											"language": "CA",
+											"value": "Nova comanda de venda"
 										},
 										{
 											"language": "EN",
@@ -2151,6 +2151,173 @@
 								}
 							],
 							"data": [
+								{
+									"fieldNo": "5831709b-ac69-475c-d5f6-64aeb3effa36",
+									"fieldName": "Bar",
+									"fieldParent": "33459959-e97c-4304-ab19-db8566c770c0",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setCustomHeader",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "3613319e-5949-443d-fed3-ca5917e83eda",
+											"fieldName": "Left",
+											"fieldParent": "5831709b-ac69-475c-d5f6-64aeb3effa36",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "60b890c4-933f-46c8-dcd4-97698451c148",
+													"fieldName": "ButtonBack",
+													"fieldParent": "3613319e-5949-443d-fed3-ca5917e83eda",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://nav-back",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "oApp.back()",
+															"script": "oApp.back()",
+															"language": "javascript",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "5588bb63-5bfc-4337-d594-53a248f387ff",
+											"fieldName": "Middle",
+											"fieldParent": "5831709b-ac69-475c-d5f6-64aeb3effa36",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "67abdc5a-1c4f-4e27-e28a-4a3e9e244c18",
+													"fieldName": "Title",
+													"fieldParent": "5588bb63-5bfc-4337-d594-53a248f387ff",
+													"fieldType": "sap.m.Title",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "New Sales Order",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "41bcd34f-191a-4f8c-86ae-2b8895a4318b",
+											"fieldName": "ContentRight",
+											"fieldParent": "5831709b-ac69-475c-d5f6-64aeb3effa36",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "d12cf4b6-8b6e-42fd-db71-8790ec7959ce",
+													"fieldName": "customButton",
+													"fieldParent": "41bcd34f-191a-4f8c-86ae-2b8895a4318b",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Auto-Fill",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/customButton/press.js",
+															"language": "javascript",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
 								{
 									"fieldNo": "c42dc0fc-987d-4df7-afd5-66f55686ae8c",
 									"fieldName": "oSimpleForm",
@@ -2202,6 +2369,7 @@
 											"fieldType": "sap.m.Input",
 											"script": "",
 											"customComponent": false,
+											"bindingType": "h",
 											"request": [],
 											"response": [],
 											"attributes": [
@@ -2768,16 +2936,16 @@
 															"script": "",
 															"translation": [
 																{
-																	"language": "CA",
-																	"value": "Crear"
+																	"language": "AR",
+																	"value": "خلق"
 																},
 																{
 																	"language": "BG",
 																	"value": "Създайте"
 																},
 																{
-																	"language": "AR",
-																	"value": "خلق"
+																	"language": "CA",
+																	"value": "Crear"
 																},
 																{
 																	"language": "EN",
@@ -3185,7 +3353,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.2.7.159",
+	"ver": "24.03.06.1316",
 	"application": "pdf_generator",
 	"title": "",
 	"description": "sales order demo",
@@ -3210,7 +3378,7 @@
 	"ui5_url": "",
 	"cus_theme": "",
 	"css": "file:///css.css",
-	"compiledCss": null,
+	"compiledCss": "file://script/undefined/undefined.script",
 	"header": "file:///header.html",
 	"manifest": "",
 	"globalScript": "",

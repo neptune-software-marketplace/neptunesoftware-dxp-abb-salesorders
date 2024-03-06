@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-salesorders",
 	"description": "Sales orders with PDF generation ",
-	"ver": "23.2.7.1446",
+	"ver": "24.02.27.1203",
 	"enableCICD": true,
 	"apps": [
 		{
