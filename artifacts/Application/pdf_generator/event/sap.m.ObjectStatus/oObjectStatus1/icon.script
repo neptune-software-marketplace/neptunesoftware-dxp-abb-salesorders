@@ -1,14 +1,16 @@
-if (typeof STATUS === "undefined" || STATUS === null || STATUS === "") { return; }  
-var formattedText = STATUS; 
+if (typeof STATUS === "undefined" || STATUS === null || STATUS === "") {
+    return;
+}
+var formattedText = STATUS;
 
-if(STATUS === "Approved"){
+if (STATUS === "Approved") {
     formattedText = "sap-icon://accept";
 }
-if(STATUS === "Rejected"){
-    formattedText = "sap-icon://decline"
+if (STATUS === "Rejected") {
+    formattedText = "sap-icon://decline";
 }
-if(STATUS === "Pending"){
-    formattedText = "sap-icon://pending"
+if (STATUS === "Pending") {
+    formattedText = "sap-icon://pending";
 }
- 
+
 return formattedText;

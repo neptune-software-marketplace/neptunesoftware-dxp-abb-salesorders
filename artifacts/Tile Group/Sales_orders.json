@@ -60,7 +60,7 @@
 	"imageMobileSize": null,
 	"hideFromMenu": false,
 	"roleTag": null,
-	"cockpitTileGroup": null,
+	"cockpitTileGroup": false,
 	"package": "03473732-9e9c-ed11-994a-0022489f9953",
 	"roles": [],
 	"tiles": [

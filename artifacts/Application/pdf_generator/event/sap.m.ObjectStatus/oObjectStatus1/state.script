@@ -1,14 +1,16 @@
-if (typeof STATUS === "undefined" || STATUS === null || STATUS === "") { return; }    
-var formattedText = STATUS; 
+if (typeof STATUS === "undefined" || STATUS === null || STATUS === "") {
+    return;
+}
+var formattedText = STATUS;
 
-if (STATUS === "Rejected"){
-    var formattedText = "Error"; 
+if (STATUS === "Rejected") {
+    formattedText = "Error";
 }
-if (STATUS === "Pending"){
-    var formattedText = "Warning"; 
+if (STATUS === "Pending") {
+    formattedText = "Warning";
 }
-if (STATUS === "Approved"){
-    var formattedText = "Success"; 
+if (STATUS === "Approved") {
+    formattedText = "Success";
 }
 
 return formattedText;

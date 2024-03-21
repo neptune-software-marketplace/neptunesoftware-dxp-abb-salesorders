@@ -16,8 +16,10 @@ $.ajax({
         console.log("data:application/pdf;base64," + data)
 
         var temp = data
+
+        pdfAttachment = data; //This will be used to send it as an attachment via email
+
         oApp.setBusy(false);
-        
 
         var pdfurl = createDataURL(temp);
         console.log(pdfurl)

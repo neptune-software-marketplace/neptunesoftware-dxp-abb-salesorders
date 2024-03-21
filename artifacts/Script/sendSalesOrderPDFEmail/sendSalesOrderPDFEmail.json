@@ -1,0 +1,20 @@
+{
+	"id": "372c3888-77dc-ee11-85fa-000d3ab233f4",
+	"createdAt": "2024-03-07T11:40:44.976Z",
+	"createdBy": "daniel.vieira@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "sendSalesOrderPDFEmail",
+	"ver": "24.3.7.1243",
+	"description": "Script for sending an email with the Sales Order PDF attachment",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "1440776c-77dc-ee11-85fa-000d3ab233f4",
+	"package": "03473732-9e9c-ed11-994a-0022489f9953"
+}

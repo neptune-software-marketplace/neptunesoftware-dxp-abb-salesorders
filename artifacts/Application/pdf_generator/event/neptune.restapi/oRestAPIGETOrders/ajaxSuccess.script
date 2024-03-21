@@ -26,7 +26,7 @@ for (let i = 0; i < RESULT.length; i++) {
   if (RESULT[i].STATUS === "Approved")
   counterA++;
 
-  if (RESULT[i].STATUS === "Pending")
+  if (RESULT[i].STATUS === "Pending" || RESULT[i].STATUS === "Valid")
   counterB++;
 
   if (RESULT[i].STATUS === "Rejected")
@@ -86,4 +86,3 @@ function Pie() {
 }
 
 Pie();
-

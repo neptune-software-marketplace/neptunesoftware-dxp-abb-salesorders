@@ -2072,13 +2072,6 @@
 															"translation": []
 														},
 														{
-															"attribute": "text",
-															"grouping": "Formatter",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ObjectStatus/oObjectStatus1/text.script",
-															"translation": []
-														},
-														{
 															"attribute": "state",
 															"grouping": "Formatter",
 															"value": "Anonymous Function",
@@ -2145,8 +2138,9 @@
 								{
 									"attribute": "navButtonPress",
 									"grouping": "Events",
-									"value": "oApp.backToPage(oPage);",
-									"script": "oApp.backToPage(oPage);",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.Page/oPageNewSO/navButtonPress.js",
+									"language": "javascript",
 									"translation": []
 								}
 							],
@@ -2211,7 +2205,6 @@
 															"grouping": "Events",
 															"value": "oApp.back()",
 															"script": "oApp.back()",
-															"language": "javascript",
 															"translation": []
 														}
 													],
@@ -3061,6 +3054,82 @@
 									"response": [],
 									"attributes": [],
 									"data": []
+								},
+								{
+									"fieldNo": "680b55a6-57fb-476f-e3fb-4b21a62d2abf",
+									"fieldName": "oBarFooterSalesOrderPDF",
+									"fieldParent": "f62959cc-1234-4882-a8ef-b598f06efedb",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "3afdc743-4b4f-4690-e581-46011b73c600",
+											"fieldName": "Right",
+											"fieldParent": "680b55a6-57fb-476f-e3fb-4b21a62d2abf",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "52945cdf-a202-451b-fe93-4930bed7125e",
+													"fieldName": "oButtonSendEmail",
+													"fieldParent": "3afdc743-4b4f-4690-e581-46011b73c600",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Accept",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Send Email with PDF",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "oDialogSendEmail.open();",
+															"script": "oDialogSendEmail.open();",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
 								}
 							]
 						}
@@ -3182,6 +3251,36 @@
 							"response": [],
 							"attributes": [],
 							"data": []
+						},
+						{
+							"fieldNo": "9db0e23d-ac8d-41a4-f16d-309ea4b7ec46",
+							"fieldName": "oRestAPISendEmail",
+							"fieldParent": "fe3fbf56-fb48-4179-f37a-588ba89a156b",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "bebfe0fd-78dc-ee11-85fa-000d3ab233f4",
+							"restOperation": "022c4f29-003e-409d-ac3d-64988af36534",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "ajaxSuccess",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.restapi/oRestAPISendEmail/ajaxSuccess.js",
+									"language": "javascript",
+									"translation": []
+								},
+								{
+									"attribute": "ajaxError",
+									"grouping": "Events",
+									"value": "oApp.setBusy(false);",
+									"script": "oApp.setBusy(false);",
+									"translation": []
+								}
+							],
+							"data": []
 						}
 					]
 				},
@@ -3223,62 +3322,54 @@
 					]
 				},
 				{
-					"fieldNo": "c229a8e5-0d1e-49a3-927f-6bac7d1beb1f",
-					"fieldName": "oDialog",
+					"fieldNo": "556ac55b-1af7-46f3-e12b-23c6a64fd97f",
+					"fieldName": "Dialogs",
 					"fieldParent": 99999,
-					"fieldType": "sap.m.Dialog",
+					"fieldType": "neptune.folder",
 					"script": "",
 					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [
-						{
-							"attribute": "showHeader",
-							"grouping": "Properties",
-							"value": "false",
-							"script": "",
-							"translation": []
-						},
-						{
-							"attribute": "contentWidth",
-							"grouping": "Properties",
-							"value": "40rem",
-							"script": "",
-							"translation": []
-						},
-						{
-							"attribute": "contentHeight",
-							"grouping": "Properties",
-							"value": "28rem",
-							"script": "",
-							"translation": []
-						}
-					],
+					"attributes": [],
 					"data": [
 						{
-							"fieldNo": "7a9ef8b1-2bc4-49a3-94cf-e589f099b08b",
-							"fieldName": "oBarContent4",
-							"fieldParent": "c229a8e5-0d1e-49a3-927f-6bac7d1beb1f",
-							"fieldType": "sap.m.Bar",
+							"fieldNo": "c229a8e5-0d1e-49a3-927f-6bac7d1beb1f",
+							"fieldName": "oDialog",
+							"fieldParent": "556ac55b-1af7-46f3-e12b-23c6a64fd97f",
+							"fieldType": "sap.m.Dialog",
 							"script": "",
 							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "position",
-									"grouping": "Parent",
-									"value": "addContent",
+									"attribute": "showHeader",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "contentWidth",
+									"grouping": "Properties",
+									"value": "40rem",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "contentHeight",
+									"grouping": "Properties",
+									"value": "28rem",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "4671b976-908e-4b26-f823-d559f395725d",
-									"fieldName": "Right",
-									"fieldParent": "7a9ef8b1-2bc4-49a3-94cf-e589f099b08b",
-									"fieldType": "neptune.BarContent",
+									"fieldNo": "7a9ef8b1-2bc4-49a3-94cf-e589f099b08b",
+									"fieldName": "oBarContent4",
+									"fieldParent": "c229a8e5-0d1e-49a3-927f-6bac7d1beb1f",
+									"fieldType": "sap.m.Bar",
 									"script": "",
 									"customComponent": false,
 									"request": [],
@@ -3287,41 +3378,252 @@
 										{
 											"attribute": "position",
 											"grouping": "Parent",
-											"value": "ContentRight",
+											"value": "addContent",
 											"script": "",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "36700deb-b82f-427d-ad33-9b6054c295ae",
-											"fieldName": "oButton4",
-											"fieldParent": "4671b976-908e-4b26-f823-d559f395725d",
-											"fieldType": "sap.m.Button",
+											"fieldNo": "4671b976-908e-4b26-f823-d559f395725d",
+											"fieldName": "Right",
+											"fieldParent": "7a9ef8b1-2bc4-49a3-94cf-e589f099b08b",
+											"fieldType": "neptune.BarContent",
 											"script": "",
 											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "visible",
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "36700deb-b82f-427d-ad33-9b6054c295ae",
+													"fieldName": "oButton4",
+													"fieldParent": "4671b976-908e-4b26-f823-d559f395725d",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "visible",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://decline",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "oDialog.close();",
+															"script": "oDialog.close();",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "7cd830c0-f530-44ab-d455-f8cd18eea4c8",
+							"fieldName": "oButtonAcceptDialogSendEmail",
+							"fieldParent": "556ac55b-1af7-46f3-e12b-23c6a64fd97f",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Accept",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Send Email",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.Button/oButtonAcceptDialogSendEmail/press.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "5f19f5b6-eb2c-4a86-8d7b-5f018a9e0505",
+							"fieldName": "oButtonCloseDialogSendEmail",
+							"fieldParent": "556ac55b-1af7-46f3-e12b-23c6a64fd97f",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Negative",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Close",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "oDialogSendEmail.close();",
+									"script": "oDialogSendEmail.close();",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "405226f1-0d6c-4fed-87b3-203f9eed0de4",
+							"fieldName": "oDialogSendEmail",
+							"fieldParent": "556ac55b-1af7-46f3-e12b-23c6a64fd97f",
+							"fieldType": "sap.m.Dialog",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Object",
+							"bindingType": "u",
+							"bindingSource": "P9",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Send Email with PDF",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "endButton",
+									"grouping": "Associations",
+									"value": "oButtonCloseDialogSendEmail",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "beginButton",
+									"grouping": "Associations",
+									"value": "oButtonAcceptDialogSendEmail",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "titleAlignment",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "c149d0d4-dbd3-41ec-a3e3-2acd4606c461",
+									"fieldName": "oSimpleFormDialogSendEmail",
+									"fieldParent": "405226f1-0d6c-4fed-87b3-203f9eed0de4",
+									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "66c97309-a2de-47d9-a2f4-335251c58ede",
+											"fieldName": "LabelEmail",
+											"fieldParent": "c149d0d4-dbd3-41ec-a3e3-2acd4606c461",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
 													"grouping": "Properties",
-													"value": "false",
+													"value": "Email",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "b2240e10-63a2-4c49-8564-8ad097cbe45d",
+											"fieldName": "InputEmail",
+											"fieldParent": "c149d0d4-dbd3-41ec-a3e3-2acd4606c461",
+											"fieldType": "sap.m.Input",
+											"script": "",
+											"customComponent": false,
+											"bindingType": "h",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "value",
+													"grouping": "Properties",
+													"value": "{/email}",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "icon",
+													"attribute": "placeholder",
 													"grouping": "Properties",
-													"value": "sap-icon://decline",
+													"value": "Please provide an email to send the PDF attachment...",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "press",
+													"attribute": "liveChange",
 													"grouping": "Events",
-													"value": "oDialog.close();",
-													"script": "oDialog.close();",
+													"value": "InputEmail.setValueState();",
+													"script": "InputEmail.setValueState();",
 													"translation": []
 												}
 											],
@@ -3353,7 +3655,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.03.06.1316",
+	"ver": "24.3.7.1413",
 	"application": "pdf_generator",
 	"title": "",
 	"description": "sales order demo",
@@ -3395,6 +3697,11 @@
 	"generateVersionOnActivation": false,
 	"activationHistoryCount": 0,
 	"apis": [
+		{
+			"id": "bebfe0fd-78dc-ee11-85fa-000d3ab233f4",
+			"name": "sendEmailWithGeneratedSalesOrderPDF",
+			"ver": "24.3.7.1151"
+		},
 		{
 			"id": "b7a8d7d1-13bb-ec11-997e-0050f2c33e69",
 			"name": "pdf_order_data_API",
