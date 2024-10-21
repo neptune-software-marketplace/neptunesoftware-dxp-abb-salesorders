@@ -11,7 +11,7 @@ apioRestAPIPostOrder(options);
 
 sap.m.MessageToast.show("Order Rejected");
 
-oNUIOffcanvasDetails.hide();
+oDialogOrder.close();
 
 
 

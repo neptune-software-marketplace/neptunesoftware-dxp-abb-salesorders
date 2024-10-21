@@ -9,6 +9,7 @@
 	"name": "sendSalesOrderPDFEmail",
 	"ver": "24.3.7.1243",
 	"description": "Script for sending an email with the Sales Order PDF attachment",
+	"folder": null,
 	"content": "file:///content.js",
 	"useAsGlobalScript": false,
 	"transpiledContent": null,

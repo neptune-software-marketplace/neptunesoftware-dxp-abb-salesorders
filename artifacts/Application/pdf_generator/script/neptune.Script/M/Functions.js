@@ -5,7 +5,7 @@ function showApproved() {
     var binding = oTable1.getBinding("items");
     var filter1 = new sap.ui.model.Filter("STATUS", "Contains", "Approved");
     binding.filter([filter1]);
-    console.log(binding);
+    //console.log(binding);
 }
 
 function showPending() {

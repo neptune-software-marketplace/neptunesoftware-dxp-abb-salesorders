@@ -1,12 +1,12 @@
-oNUIOffcanvasDetails.show();
+oDialogOrder.open();
 
 
 setTimeout(function() {
 
-    oHTMLObject.setContent("<canvas id='signature-pad' class='signature-pad' style='border:1px solid'></canvas>");
+    oHTMLObject1.setContent("<canvas id='signature-pad' class='signature-pad' style='border:1px solid'></canvas>");
     //oNUIOffcanvasDetails.setPlacement("Bottom");
     var canvas = document.getElementById('signature-pad');
-    console.log(canvas);
+    //console.log(canvas);
     signaturePad = new SignaturePad(canvas);
     
 
@@ -18,7 +18,7 @@ var context = oEvent.oSource.getBindingContext();
 
 var data = context.getObject();
 
-console.log(data);
+//console.log(data);
 
 
 oText.setText(data.id);

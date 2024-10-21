@@ -1,7 +1,3 @@
-.offCanvas {
-  min-width: 25%;
-}
-
 .toolbarSeparator {
   height: 11rem;
 }
@@ -10,6 +6,6 @@
   padding: 0.1rem;
 }
 
-/* .sapMHBox {
-    background-color: white;
-} */
+.signature-pad {
+  border: 1px solid #babec3;
+}

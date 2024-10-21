@@ -11,7 +11,7 @@ apioRestAPIPostOrder(options);
 
 sap.m.MessageToast.show("Order Approved");
 
-oNUIOffcanvasDetails.hide();
+oDialogOrder.close();
 
 
 setTimeout(function() {

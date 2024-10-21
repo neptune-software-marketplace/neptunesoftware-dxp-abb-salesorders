@@ -4,11 +4,11 @@ RESULT = responseData;
 
 var a = RESULT.length;
 
-console.log(a);
+//console.log(a);
 
 //oPage.setTitle("Sales Orders " + "(" + a + ")");
 
-console.log(RESULT);
+//console.log(RESULT);
 
 //sap.m.MessageToast.show("Data retrieved from SAP");
 
@@ -21,7 +21,7 @@ var counterC = 0;
 
 for (let i = 0; i < RESULT.length; i++) {
 
-    console.log(RESULT[i])
+    //console.log(RESULT[i])
     
   if (RESULT[i].STATUS === "Approved")
   counterA++;
@@ -33,9 +33,9 @@ for (let i = 0; i < RESULT.length; i++) {
   counterC++;
 
 }
-console.log(counterA); 
-console.log(counterB); 
-console.log(counterC);
+// console.log(counterA); 
+// console.log(counterB); 
+// console.log(counterC);
 
 
 
