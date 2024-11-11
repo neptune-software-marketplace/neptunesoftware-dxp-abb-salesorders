@@ -3778,7 +3778,7 @@
 	"ui5_url": "",
 	"cus_theme": "",
 	"css": "file:///css.css",
-	"compiledCss": "file://script/undefined/undefined.script",
+	"compiledCss": "file:///compiledCss.css",
 	"header": "file:///header.html",
 	"manifest": "",
 	"globalScript": "",
@@ -3794,6 +3794,7 @@
 	"printWidth": null,
 	"generateVersionOnActivation": false,
 	"activationHistoryCount": 0,
+	"package": "03473732-9e9c-ed11-994a-0022489f9953",
 	"apis": [
 		{
 			"id": "bebfe0fd-78dc-ee11-85fa-000d3ab233f4",
@@ -3805,6 +3806,5 @@
 			"name": "pdf_order_data_API",
 			"ver": "23.1.25.1053"
 		}
-	],
-	"package": "03473732-9e9c-ed11-994a-0022489f9953"
+	]
 }

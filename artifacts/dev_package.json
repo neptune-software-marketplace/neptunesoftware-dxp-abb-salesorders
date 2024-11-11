@@ -3,21 +3,23 @@
 	"createdAt": "2023-01-25T10:51:18.960Z",
 	"createdBy": "cezar.strugariu@neptune-software.com",
 	"git": {
-		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-salesorders"
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-salesorders",
+		"branch": "v24"
 	},
 	"name": "neptunesoftware-dxp-abb-salesorders",
 	"description": "Sales orders with PDF generation ",
-	"ver": "24.3.7.1315",
+	"ver": "24.11.11.1637",
 	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": true,
+	"roles": [],
 	"apps": [
 		{
 			"id": "5d9e36d9-71c1-ec11-997e-0050f279c413",
 			"application": "pdf_generator",
 			"title": "",
-			"description": "sales order demo",
-			"package": {
-				"id": "03473732-9e9c-ed11-994a-0022489f9953"
-			}
+			"description": "sales order demo"
 		}
 	],
 	"api": [
@@ -76,6 +78,7 @@
 			"name": "Sales Orders - PDF Generator"
 		}
 	],
+	"tile_layout": [],
 	"category": [
 		{
 			"id": "927614dd-f5a6-ed11-a8e0-0022489f97c8",
@@ -83,6 +86,7 @@
 			"name": "Sales_orders"
 		}
 	],
+	"tilegroup_layout": [],
 	"launchpad": [
 		{
 			"id": "61c496ee-f5a6-ed11-a8e0-0022489f97c8",
@@ -90,6 +94,7 @@
 			"description": null
 		}
 	],
+	"launchpad_layout": [],
 	"certificates": [],
 	"role": [],
 	"systems": [],
@@ -108,5 +113,6 @@
 	"events": [],
 	"code_snippets": [],
 	"wf_determination": [],
-	"wf_taskaction": []
+	"wf_taskaction": [],
+	"theme_ui5": []
 }

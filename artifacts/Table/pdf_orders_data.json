@@ -70,6 +70,7 @@
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "03473732-9e9c-ed11-994a-0022489f9953",
+	"generationStrategy": null,
 	"rolesRead": [],
 	"rolesWrite": []
 }
