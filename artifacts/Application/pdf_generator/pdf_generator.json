@@ -1992,7 +1992,15 @@
 							"customComponent": false,
 							"request": [],
 							"response": [],
-							"attributes": [],
+							"attributes": [
+								{
+									"attribute": "isTrustedSource",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
 							"data": []
 						},
 						{
@@ -3753,7 +3761,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.10.21.1557",
+	"ver": "24.11.12.1536",
 	"application": "pdf_generator",
 	"title": "",
 	"description": "sales order demo",
@@ -3773,7 +3781,7 @@
 	"ui5_uxap": false,
 	"ui5_chart": false,
 	"ui5_theme": "sap_fiori_3",
-	"ui5_version": "",
+	"ui5_version": "1.120",
 	"ui5_language": "",
 	"ui5_url": "",
 	"cus_theme": "",
