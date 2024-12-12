@@ -1,5 +1,9 @@
 # neptunesoftware-dxp-abb-salesorders
 
+## License
+ 
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
 ## Third-Party Licenses
 
 This project includes the push.min.js library, which is licensed under the MIT License.
