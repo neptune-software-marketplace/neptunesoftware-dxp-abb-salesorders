@@ -7,7 +7,7 @@
 		"branch": "v24"
 	},
 	"name": "neptunesoftware-dxp-abb-salesorders",
-	"description": "Sales orders with PDF generation ",
+	"description": "Manage sales orders with tools for creation, review, approval, and dynamic PDF generation.",
 	"ver": "24.11.12.1538",
 	"enableCICD": true,
 	"internalReadOnly": false,
