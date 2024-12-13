@@ -6,7 +6,7 @@
 		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-salesorders"
 	},
 	"name": "neptunesoftware-dxp-abb-salesorders",
-	"description": "Sales orders with PDF generation ",
+	"description": "Manage sales orders with tools for creation, review, approval, and dynamic PDF generation.",
 	"ver": "24.3.7.1315",
 	"enableCICD": true,
 	"apps": [
