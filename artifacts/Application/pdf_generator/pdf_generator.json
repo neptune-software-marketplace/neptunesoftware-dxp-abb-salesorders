@@ -3294,8 +3294,7 @@
 									"attribute": "ajaxSuccess",
 									"grouping": "Events",
 									"value": "Anonymous Function",
-									"script": "file://event/neptune.restapi/oRestAPIPOST/ajaxSuccess.js",
-									"language": "javascript",
+									"script": "file://event/neptune.restapi/oRestAPIPOST/ajaxSuccess.script",
 									"translation": []
 								}
 							],
@@ -3749,11 +3748,25 @@
 		},
 		{
 			"fieldNo": 99998,
-			"data": []
+			"data": [
+				{
+					"fieldNo": "09637723-7b60-4810-c0ae-58276ebe39c7",
+					"fieldName": "ReadMe-ApplicationFlow",
+					"fieldParent": 99998,
+					"fieldType": "neptune.Text",
+					"script": "file://script/neptune.Text/ReadMe-ApplicationFlow.txt",
+					"customComponent": false,
+					"filePath": "readme-applicationflow",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.10.21.1557",
+	"ver": "25.01.07.1546",
 	"application": "pdf_generator",
 	"title": "",
 	"description": "sales order demo",
