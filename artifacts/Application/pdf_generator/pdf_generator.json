@@ -1992,15 +1992,7 @@
 							"customComponent": false,
 							"request": [],
 							"response": [],
-							"attributes": [
-								{
-									"attribute": "isTrustedSource",
-									"grouping": "Properties",
-									"value": "true",
-									"script": "",
-									"translation": []
-								}
-							],
+							"attributes": [],
 							"data": []
 						},
 						{
@@ -3757,11 +3749,25 @@
 		},
 		{
 			"fieldNo": 99998,
-			"data": []
+			"data": [
+				{
+					"fieldNo": "7953cebf-4f97-4dbf-93bc-fb0d295dd9ac",
+					"fieldName": "ReadMe-ApplicationFlow",
+					"fieldParent": 99998,
+					"fieldType": "neptune.Text",
+					"script": "file://script/neptune.Text/ReadMe-ApplicationFlow.txt",
+					"customComponent": false,
+					"filePath": "readme-applicationflow",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.11.12.1536",
+	"ver": "25.01.07.1542",
 	"application": "pdf_generator",
 	"title": "",
 	"description": "sales order demo",
@@ -3781,7 +3787,7 @@
 	"ui5_uxap": false,
 	"ui5_chart": false,
 	"ui5_theme": "sap_fiori_3",
-	"ui5_version": "1.120",
+	"ui5_version": "",
 	"ui5_language": "",
 	"ui5_url": "",
 	"cus_theme": "",
