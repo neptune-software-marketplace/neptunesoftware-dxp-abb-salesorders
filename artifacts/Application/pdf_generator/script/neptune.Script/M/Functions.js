@@ -142,7 +142,7 @@ function submit() {
     //Web push notification
     Push.create("New Sales Order", {
         body: "Sales order: " + final_data.ORDERNUMBER + " has been successfully created!",
-        icon: "https://dxpdemo.neptune-software.cloud/media/root/PDF%20Generator%20App/neptune_logo.png",
+        icon: "/media/root/PDF%20Generator%20App/neptune-logo-500.png",
         timeout: 6000,
         onClick: function () {
             window.focus();

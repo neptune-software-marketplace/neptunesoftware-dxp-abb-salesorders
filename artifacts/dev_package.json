@@ -8,7 +8,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-salesorders",
 	"description": "Manage sales orders with tools for creation, review, approval, and dynamic PDF generation.",
-	"ver": "25.01.07.1544",
+	"ver": "25.01.23.1319",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,

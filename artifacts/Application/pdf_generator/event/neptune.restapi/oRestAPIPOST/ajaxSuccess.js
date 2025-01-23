@@ -1,54 +1,40 @@
-// Parse the response
-var salesOrderBAPIResponse = JSON.parse(xhr.responseText);
+console.log(JSON.parse(xhr.responseText));
 
-// Function to generate a random numeric key
-function generateRandomNumericKey(length) {
-    let characters = "0123456789";
-    let result = "";
-    for (let i = 0; i < length; i++) {
-        result += characters.charAt(Math.floor(Math.random() * characters.length));
-    }
-    return result;
-}
+var salesOrderBAPIResponse = JSON.parse(xhr.responseText)
 
-let template = "elearning_pdf_demo";
-var pdfUrl = "/pdf/" + template;
-let objKey = generateRandomNumericKey(8);
-let securityKey = generateRandomNumericKey(8);
-pdfUrl += "?objectkey=" + objKey + "&securitykey=" + securityKey;
 
-// Prepare PDFData with the updated final_data
-var PDFData = {data: final_data};
+var PDFData = { data: final_data};
+
 
 $.ajax({
     type: "POST",
-    url: pdfUrl,
+    url: "/pdf/elearning_pdf_demo",
     data: PDFData,
-    success: function (data) {
-        // Show PDF after decoding into Base64
-        console.log("data:application/pdf;base64," + data);
+    success: function(data) {
+        // elem.src = "data:application/pdf;base64," + data;
+        // Show PDF after decode into base 64
+        console.log("data:application/pdf;base64," + data)
 
-        var temp = data;
+        var temp = data
 
-        pdfAttachment = data; // This will be used to send it as an attachment via email
+        pdfAttachment = data; //This will be used to send it as an attachment via email
 
         oApp.setBusy(false);
 
         var pdfurl = createDataURL(temp);
-        console.log(pdfurl);
+        console.log(pdfurl)
         oPDFViewer.setSource(pdfurl);
-    },
-    error: function (result, status) {
-        if (result.responseJSON && result.responseJSON.status) {
-            console.error(result.responseJSON.status);
-        }
-    },
-});
 
-console.log("PDFData:");
-console.log(PDFData);
+        
+           },
+    error: function(result, status) {
+        if (data.responseJSON && result.responseJSON.status)
+ console.error(data.responseJSON.status);
+    }});
 
-// Options for further use
+console.log("PDFData:")
+console.log(PDFData)
 var options = {
-    data: PDFData,
+    data: PDFData
 };
+
