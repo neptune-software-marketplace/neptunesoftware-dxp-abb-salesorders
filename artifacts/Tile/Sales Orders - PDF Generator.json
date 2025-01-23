@@ -2,8 +2,12 @@
 	"id": "384423f4-75c1-ec11-997e-0050f279c413",
 	"createdAt": "2022-04-21T13:21:30.310Z",
 	"createdBy": "admin",
-	"lightTileLayouts": null,
-	"darkTileLayouts": null,
+	"lightTileLayouts": [
+		{
+			"id": "cb4c87a9-4c9d-4de9-a04d-5450a7fc1962"
+		}
+	],
+	"darkTileLayouts": [],
 	"translation": [],
 	"storeItem": {},
 	"settings": null,
@@ -61,7 +65,7 @@
 	"helpText": "<p>​<strong>Sales Orders Application<br></strong></p><p>​</p><p>This tile consists of one appliaction designed to create and manage sales orders. The application is also capable of generating a PDF Document dynamically, based on the new sales order's data.</p><p>Application features:</p><ul><li>Fully responsive (Mobile, Tablet, Desktop).</li><li>Analytics - Highcharts</li><li>Print/Download highchart<br></li><li>Approve/Reject orders<br></li><li>Search and Filter orders</li><li>Comments section<br></li><li>Signature pad <br></li><li>Generate, preview and download the PDF Document</li><li>Push Notifications<br></li></ul>",
 	"helpEnabled": true,
 	"openClickTile": false,
-	"ver": "23.1.25.1539",
+	"ver": "25.01.23.1326",
 	"actionWebApp": "",
 	"name": "Sales Orders - PDF Generator",
 	"cardWidth": null,
