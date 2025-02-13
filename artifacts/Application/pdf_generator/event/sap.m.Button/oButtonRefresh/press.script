@@ -1,3 +1,0 @@
-apioRestAPIGETOrders();
-modeloTable1.refresh();
-sap.m.MessageToast.show("SAP List updated");

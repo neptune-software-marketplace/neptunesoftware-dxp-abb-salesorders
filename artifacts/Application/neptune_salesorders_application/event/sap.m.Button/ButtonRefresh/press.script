@@ -1,0 +1,3 @@
+apiRestAPIGETOrders();
+modelTableSalesOrders.refresh();
+sap.m.MessageToast.show("SAP List updated");

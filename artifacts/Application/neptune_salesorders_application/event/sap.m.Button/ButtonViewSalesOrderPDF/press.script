@@ -1,0 +1,11 @@
+App.setBusy(true);
+App.to(PageViewSalesOrderPDF)
+clearForm();
+App.setBusy(false);
+
+setTimeout(function() {
+
+    sap.m.MessageToast.show("PDF Document sucessfully generated!");
+
+
+}, 1500);

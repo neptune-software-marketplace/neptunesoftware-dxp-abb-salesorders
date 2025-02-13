@@ -8,32 +8,32 @@
 	},
 	"name": "neptunesoftware-dxp-abb-salesorders",
 	"description": "Manage sales orders with tools for creation, review, approval, and dynamic PDF generation.",
-	"ver": "25.01.23.1345",
+	"ver": "24.11.12.1538",
 	"enableCICD": true,
 	"internalReadOnly": false,
-	"oeVersion": null,
-	"excludeTemplateFiles": false,
+	"oeVersion": "24.11.0-rc.4",
+	"excludeTemplateFiles": true,
 	"roles": [],
 	"apps": [
 		{
-			"id": "5d9e36d9-71c1-ec11-997e-0050f279c413",
-			"application": "pdf_generator",
-			"title": "",
-			"description": "sales order demo"
+			"id": "0e4a10aa-8edb-406c-a042-39313ffac4eb",
+			"application": "neptune_salesorders_application",
+			"title": "Sales Orders application",
+			"description": "Sales Orders application."
 		}
 	],
 	"api": [
 		{
 			"id": "bebfe0fd-78dc-ee11-85fa-000d3ab233f4",
-			"name": "sendEmailWithGeneratedSalesOrderPDF",
-			"description": null,
-			"apiGroup": null
+			"name": "neptune-salesorders-send-email-with-generated-sales-order-PDF",
+			"description": "Server Script API for sending an email with the sales order PDF document attached.",
+			"apiGroup": "9197ad86-b68e-4b87-b8a2-ee13461eeeb9"
 		},
 		{
 			"id": "b7a8d7d1-13bb-ec11-997e-0050f2c33e69",
-			"name": "pdf_order_data_API",
-			"description": null,
-			"apiGroup": null
+			"name": "neptune-salesorders-pdf-order-data-API",
+			"description": "Table Definition API for performing operations on the sales orders data.",
+			"apiGroup": "9197ad86-b68e-4b87-b8a2-ee13461eeeb9"
 		}
 	],
 	"odataSource": [],
@@ -41,62 +41,63 @@
 	"dictionary": [
 		{
 			"id": "1bcec1c2-12bb-ec11-997e-0050f2c33e69",
-			"name": "pdf_orders_data",
-			"description": null
+			"name": "neptune-salesorders-orders-data",
+			"description": "Table for storing the sales orders data."
 		}
 	],
 	"jsclass": [
 		{
 			"id": "372c3888-77dc-ee11-85fa-000d3ab233f4",
-			"name": "sendSalesOrderPDFEmail",
+			"name": "neptune-salesorders-send-sales-order-PDF-email",
 			"description": "Script for sending an email with the Sales Order PDF attachment"
 		}
 	],
 	"jsscript_group": [
 		{
 			"id": "1440776c-77dc-ee11-85fa-000d3ab233f4",
-			"name": "SalesOrderEmailScripts",
-			"description": ""
+			"name": "neptune-salesorders-email-scripts",
+			"description": "Script Group for grouping the sales orders scripts."
 		}
 	],
 	"theme": [],
 	"pdf": [
 		{
-			"id": "2547bbc6-93b1-ec11-997e-0050f2c33e69",
-			"application": "elearning_pdf_demo",
-			"description": ""
+			"id": "81e3c926-2810-4762-8805-998ade169ace",
+			"application": "neptune_salesorders_pdf",
+			"description": "PDF Template used for generating the new sales orders."
 		}
 	],
 	"rulesengine": [],
 	"reports": [],
 	"api_authentication": [],
-	"api_group": [],
+	"api_group": [
+		{
+			"id": "9197ad86-b68e-4b87-b8a2-ee13461eeeb9",
+			"name": "neptune-salesorders-API-group",
+			"description": "Used to group the neptune-salesorders APIs."
+		}
+	],
 	"tile": [
 		{
 			"id": "384423f4-75c1-ec11-997e-0050f279c413",
 			"description": null,
-			"name": "Sales Orders - PDF Generator"
+			"name": "neptune-salesorders-tile"
 		}
 	],
-	"tile_layout": [
-		{
-			"id": "cb4c87a9-4c9d-4de9-a04d-5450a7fc1962",
-			"NAME": "salesorders-image-mask"
-		}
-	],
+	"tile_layout": [],
 	"category": [
 		{
 			"id": "927614dd-f5a6-ed11-a8e0-0022489f97c8",
-			"description": null,
-			"name": "Sales_orders"
+			"description": "Tile Group for the sales orders tile.",
+			"name": "neptune-salesorders-tilegroup"
 		}
 	],
 	"tilegroup_layout": [],
 	"launchpad": [
 		{
 			"id": "61c496ee-f5a6-ed11-a8e0-0022489f97c8",
-			"name": "Sales Orders",
-			"description": null
+			"name": "neptune-salesorders-launchpad",
+			"description": "Central entry point for the sales order application."
 		}
 	],
 	"launchpad_layout": [],
@@ -107,8 +108,8 @@
 	"wf_notifications": [
 		{
 			"id": "bcaba81e-80dc-ee11-85fa-000d3ab233f4",
-			"name": "sendEmailWithSalesOrderPDFAttachment",
-			"description": "An Email with a Sales Order PDF attachment"
+			"name": "neptune-salesorders-email-template-with-pdf-attachment",
+			"description": "Email Template with a Sales Order PDF attachment."
 		}
 	],
 	"department": [],
@@ -119,5 +120,6 @@
 	"code_snippets": [],
 	"wf_determination": [],
 	"wf_taskaction": [],
-	"theme_ui5": []
+	"theme_ui5": [],
+	"webapp": []
 }

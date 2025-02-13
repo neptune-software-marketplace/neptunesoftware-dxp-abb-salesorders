@@ -1,0 +1,22 @@
+ var options = {
+    parameters: {
+        "where": JSON.stringify({"id" : Text.getText()}) // Optional 
+    },
+    data: {
+        "STATUS": "Approved"
+    }
+};
+
+apiRestAPIPostOrder(options);
+
+sap.m.MessageToast.show("Order Approved");
+
+DialogOrder.close();
+
+
+setTimeout(function() {
+
+    ButtonRefresh.firePress();
+
+
+}, 600);
