@@ -30,9 +30,9 @@
 			"apiGroup": "9197ad86-b68e-4b87-b8a2-ee13461eeeb9"
 		},
 		{
-			"id": "b7a8d7d1-13bb-ec11-997e-0050f2c33e69",
+			"id": "af73a884-ecb3-4bbf-9c13-cc7e398f8f88",
 			"name": "neptune-salesorders-pdf-order-data-API",
-			"description": "Table Definition API for performing operations on the sales orders data.",
+			"description": null,
 			"apiGroup": "9197ad86-b68e-4b87-b8a2-ee13461eeeb9"
 		}
 	],

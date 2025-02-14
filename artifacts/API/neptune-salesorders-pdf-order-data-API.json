@@ -1,12 +1,12 @@
 {
-	"id": "b7a8d7d1-13bb-ec11-997e-0050f2c33e69",
-	"createdAt": "2022-04-13T10:23:55.110Z",
-	"createdBy": "cezar",
+	"id": "af73a884-ecb3-4bbf-9c13-cc7e398f8f88",
+	"createdAt": "2025-02-14T12:12:26.000Z",
+	"createdBy": "admin",
 	"auth": [],
 	"endpoints": [],
 	"paths": [
 		{
-			"id": "06d55f6a-ebd1-4cae-bc78-d98f1ec201f7",
+			"id": "ce8a44a0-3673-428a-b22e-22da1b755e66",
 			"path": "/neptune-salesorders-orders-data",
 			"method": "GET",
 			"headers": [],
@@ -15,13 +15,14 @@
 					"name": "where",
 					"description": [
 						"==OBJECT STRING==",
-						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
-						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
 					]
 				},
 				{
 					"name": "select",
-					"description": "fieldName1,fieldName2,fieldName3"
+					"description": "fieldName1, fieldname2, fieldName3"
 				},
 				{
 					"name": "take",
@@ -61,14 +62,14 @@
 			]
 		},
 		{
-			"id": "0c338504-520e-4022-f4c0-8402c6fe5881",
+			"id": "eb61599e-6942-433b-80a7-995b9b70ed5c",
 			"path": "/neptune-salesorders-orders-data",
 			"method": "PUT",
 			"headers": [],
 			"parameters": [],
 			"content": [
 				{
-					"objectType": "array",
+					"objectTyoe": "array",
 					"name": "neptune-salesorders-orders-data"
 				}
 			],
@@ -96,7 +97,7 @@
 			]
 		},
 		{
-			"id": "39234989-8398-45cc-8de7-3db4064f11de",
+			"id": "827665cd-2621-49d7-9e5a-696e4460d330",
 			"path": "/neptune-salesorders-orders-data",
 			"method": "POST",
 			"headers": [],
@@ -105,14 +106,15 @@
 					"name": "where",
 					"example": [
 						"==OBJECT STRING==",
-						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
-						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
 					]
 				}
 			],
 			"content": [
 				{
-					"objectType": "array",
+					"objectTyoe": "array",
 					"name": "neptune-salesorders-orders-data"
 				}
 			],
@@ -140,7 +142,7 @@
 			]
 		},
 		{
-			"id": "7a439d71-ae52-413d-876b-856e524cc5d7",
+			"id": "ed256725-9b38-4648-8cc8-f42de8f6e0e4",
 			"path": "/neptune-salesorders-orders-data",
 			"method": "DELETE",
 			"headers": [],
@@ -149,8 +151,9 @@
 					"name": "where",
 					"example": [
 						"==OBJECT STRING==",
-						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
-						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
 					]
 				}
 			],
@@ -179,7 +182,7 @@
 			]
 		},
 		{
-			"id": "f6a86a68-3a0b-4531-ce69-2ce665d9d8d8",
+			"id": "489062b9-cee8-49cb-9318-450e04d177e6",
 			"path": "/neptune-salesorders-orders-data/count",
 			"method": "GET",
 			"headers": [],
@@ -188,8 +191,9 @@
 					"name": "where",
 					"description": [
 						"==OBJECT STRING==",
-						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
-						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
 					]
 				}
 			],
@@ -220,220 +224,124 @@
 	],
 	"definitions": [
 		{
-			"id": "e923d5bd-db84-4c75-c57a-55f0bd23df27",
+			"id": "5477054a-cae6-4a89-84d4-cc4ba45a1dbf",
 			"name": "neptune-salesorders-orders-data",
 			"properties": [
 				{
-					"id": "e3f2d999-6197-455c-eb4f-0e2b5bf85128",
+					"id": "49abaea7-2810-4209-ae59-fd087c28ac2a",
 					"parent": "",
 					"name": "id",
 					"description": "Unique record ID",
-					"objectType": "string",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"objectType": "string"
 				},
 				{
-					"id": "7d2e0ee8-eedd-4af3-c60f-2c4cbe16cb30",
+					"id": "9ef3d04e-e172-4dc0-8c37-d940f736c0df",
 					"parent": "",
 					"name": "ORDERNUMBER",
-					"objectType": "string",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"objectType": "string"
 				},
 				{
-					"id": "6ee4b49b-0faf-4f83-a7af-2380d3790bc8",
+					"id": "967aae9c-bfc9-41c2-8244-7182e6e2e3f7",
 					"parent": "",
 					"name": "ITEMNAME",
-					"objectType": "string",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"objectType": "string"
 				},
 				{
-					"id": "08f3224b-645b-42d1-c68c-53b1c8c735d5",
+					"id": "81acf785-5ee2-4b06-8a55-00c06c77f0c3",
 					"parent": "",
 					"name": "ITEMNUMBER",
-					"objectType": "string",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"objectType": "string"
 				},
 				{
-					"id": "2d3750cc-ba58-4e7f-f0d7-cb95a2c7075c",
+					"id": "d682ca04-bb30-4712-abd5-e73d31b3e7e5",
 					"parent": "",
 					"name": "ITEMQUANTITY",
-					"objectType": "string",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"objectType": "string"
 				},
 				{
-					"id": "04e52862-f1b2-4730-cc7d-dbcb788eb15b",
+					"id": "74d88ee2-2435-45e2-ab2a-809937480007",
 					"parent": "",
 					"name": "MATERIAL",
-					"objectType": "string",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"objectType": "string"
 				},
 				{
-					"id": "0aa59f0f-73d8-408a-e7c5-04dac8a5fdac",
+					"id": "c1638691-b236-4fc7-ad70-6c55f31291bf",
 					"parent": "",
 					"name": "DESCRIPTION",
-					"objectType": "string",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"objectType": "string"
 				},
 				{
-					"id": "b8075964-e9c6-4223-bf5b-fdb9238560cf",
+					"id": "705413cf-0372-43e1-8efa-bb7c5fae2c1b",
 					"parent": "",
 					"name": "DOCTYPE",
-					"objectType": "string",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"objectType": "string"
 				},
 				{
-					"id": "70945038-f043-4520-9a5f-728ca35cde1b",
+					"id": "938ef245-b71a-4d1a-8efc-f96e9960543e",
 					"parent": "",
 					"name": "STATUS",
-					"objectType": "string",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"objectType": "string"
 				},
 				{
-					"id": "35d876c8-3924-4f80-81c2-046a979e863d",
+					"id": "982b8df0-8929-4006-a922-19e0f19ce09a",
 					"parent": "",
 					"name": "DIVISION",
-					"objectType": "string",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"objectType": "string"
 				},
 				{
-					"id": "1025520b-ccce-4a51-b8bc-232b0203d8af",
+					"id": "f039fc03-c7ec-43f7-8c82-b0f3fd4c5b88",
 					"parent": "",
 					"name": "SALESUNIT",
-					"objectType": "string",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"objectType": "string"
 				},
 				{
-					"id": "84df231e-b17e-4a1c-cb43-fd012a116ae1",
+					"id": "6c4f7489-4a35-4c28-a7ae-d1f5adcbf8ad",
 					"parent": "",
 					"name": "CURRENCY",
-					"objectType": "string",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"objectType": "string"
 				},
 				{
-					"id": "0ca59f7f-fb8c-4e6c-954c-88ca3aeeb19e",
+					"id": "4ea4b7ac-8bb1-4db3-9960-611d8972bc59",
 					"parent": "",
 					"name": "createdAt",
 					"description": "Date when record was created",
-					"objectType": "number",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"objectType": "number"
 				},
 				{
-					"id": "522cab1f-034d-45b4-8ba3-a86c10837952",
+					"id": "d93e98dc-67e5-409f-ac97-fc79c1633a51",
 					"parent": "",
 					"name": "createdBy",
-					"description": "Created By",
-					"objectType": "string",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"description": "Created by",
+					"objectType": "string"
 				},
 				{
-					"id": "03bb016e-6b5c-4104-bdfe-52d2fae7769e",
+					"id": "d3b17609-0cfc-4d4d-a909-a35963f02169",
 					"parent": "",
 					"name": "updatedAt",
 					"description": "Date when record was updated",
-					"objectType": "number",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"objectType": "number"
 				},
 				{
-					"id": "2d1a6f25-1523-4e4e-ba70-62b0b957fd90",
+					"id": "7e2e3a22-b5c0-46fb-95c2-893e57ccc531",
 					"parent": "",
 					"name": "updatedBy",
-					"description": "Updated By",
-					"objectType": "string",
-					"isParent": false,
-					"enableValueHelp": false,
-					"canAddSubNode": false,
-					"enabled": true,
-					"showNameField": true,
-					"children": []
+					"description": "Updated by",
+					"objectType": "string"
 				}
 			]
 		},
 		{
-			"id": "c69b1e1c-06dd-4d70-e7d3-23e20d0f2d9f",
+			"id": "22da0620-3984-4c7a-b44d-2ea52649ee6c",
 			"name": "Error",
 			"properties": [
 				{
-					"id": "d69ea8dd-a371-45ec-c3c8-79f0e027148d",
+					"id": "4d87a688-e552-44c2-87bc-9674e64ecbc1",
 					"parent": "",
 					"name": "status",
 					"objectType": "string"
 				},
 				{
-					"id": "862b4f61-34e7-4af6-c922-5317cff99615",
+					"id": "abdfc8dd-4754-40f8-a244-ea402c7c1c2d",
 					"parent": "",
 					"name": "message",
 					"objectType": "string"
@@ -441,11 +349,11 @@
 			]
 		},
 		{
-			"id": "b8f3e255-0009-4a23-fe42-c16fe9fcccfd",
+			"id": "a0e48a15-9a80-4a6c-ac75-136a62b456b3",
 			"name": "count",
 			"properties": [
 				{
-					"id": "000248c9-0712-4def-92ba-28fd69404bd8",
+					"id": "0571e87a-231d-4d71-a6e7-63a7d7990fbe",
 					"parent": "",
 					"name": "count",
 					"objectType": "number"
@@ -456,9 +364,9 @@
 	"documentation": [],
 	"name": "neptune-salesorders-pdf-order-data-API",
 	"endpoint": "/api/entity",
-	"ver": "25.02.11.1051",
+	"ver": "25.02.14.1212",
 	"version": null,
-	"description": "Table Definition API for performing operations on the sales orders data.",
+	"description": null,
 	"mediaType": "application/json",
 	"securitySchemes": null,
 	"swaggerURI": null,
@@ -476,6 +384,6 @@
 	"useOwnProcess": false,
 	"package": "03473732-9e9c-ed11-994a-0022489f9953",
 	"apiGroup": "9197ad86-b68e-4b87-b8a2-ee13461eeeb9",
-	"apiFormat": 0,
+	"apiFormat": 1,
 	"roles": []
 }
