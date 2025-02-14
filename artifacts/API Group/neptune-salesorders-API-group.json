@@ -1,9 +1,0 @@
-{
-	"id": "9197ad86-b68e-4b87-b8a2-ee13461eeeb9",
-	"createdAt": "2025-02-11T09:44:16.000Z",
-	"createdBy": "admin",
-	"name": "neptune-salesorders-API-group",
-	"description": "Used to group the neptune-salesorders APIs.",
-	"ver": "25.02.11.0944",
-	"package": "03473732-9e9c-ed11-994a-0022489f9953"
-}
