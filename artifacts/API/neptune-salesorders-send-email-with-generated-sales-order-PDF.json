@@ -24,7 +24,7 @@
 	"documentation": [],
 	"name": "neptune-salesorders-send-email-with-generated-sales-order-PDF",
 	"endpoint": "/api/serverscript/neptune-salesorders-send-email-with-generated-sales-order-PDF",
-	"ver": "25.02.14.1220",
+	"ver": "25.02.14.1236",
 	"version": "",
 	"description": "Server Script API for sending an email with the sales order PDF document attached.",
 	"mediaType": null,
@@ -43,7 +43,7 @@
 	"tlsAllowUntrusted": false,
 	"useOwnProcess": false,
 	"package": "03473732-9e9c-ed11-994a-0022489f9953",
-	"apiGroup": null,
+	"apiGroup": "cab80353-0cf8-4f74-b220-85365b207fd9",
 	"apiFormat": 1,
 	"roles": []
 }

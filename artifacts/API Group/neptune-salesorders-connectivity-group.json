@@ -1,0 +1,9 @@
+{
+	"id": "cab80353-0cf8-4f74-b220-85365b207fd9",
+	"createdAt": "2025-02-14T12:36:12.000Z",
+	"createdBy": "admin",
+	"name": "neptune-salesorders-connectivity-group",
+	"description": "Connectivity group for neptune-salesorders APIs.",
+	"ver": "25.02.14.1237",
+	"package": "03473732-9e9c-ed11-994a-0022489f9953"
+}

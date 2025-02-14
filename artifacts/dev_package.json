@@ -8,7 +8,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-salesorders",
 	"description": "Manage sales orders with tools for creation, review, approval, and dynamic PDF generation.",
-	"ver": "25.02.14.1223",
+	"ver": "25.02.14.1225",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": "24.11.0-rc.4",
@@ -27,13 +27,13 @@
 			"id": "bebfe0fd-78dc-ee11-85fa-000d3ab233f4",
 			"name": "neptune-salesorders-send-email-with-generated-sales-order-PDF",
 			"description": "Server Script API for sending an email with the sales order PDF document attached.",
-			"apiGroup": null
+			"apiGroup": "cab80353-0cf8-4f74-b220-85365b207fd9"
 		},
 		{
-			"id": "9bf59c0c-f60c-49af-855a-09b8252e10af",
-			"name": "neptune-salesorders-pdf-order-data-API",
-			"description": "API for performing operations on the sales order table.",
-			"apiGroup": null
+			"id": "9641c022-a13b-429d-9738-389b5947a506",
+			"name": "neptune-salesorders-orders-data-API",
+			"description": "API for performing operations on the sales orders table.",
+			"apiGroup": "cab80353-0cf8-4f74-b220-85365b207fd9"
 		}
 	],
 	"odataSource": [],
@@ -70,7 +70,13 @@
 	"rulesengine": [],
 	"reports": [],
 	"api_authentication": [],
-	"api_group": [],
+	"api_group": [
+		{
+			"id": "cab80353-0cf8-4f74-b220-85365b207fd9",
+			"name": "neptune-salesorders-connectivity-group",
+			"description": "Connectivity group for neptune-salesorders APIs."
+		}
+	],
 	"tile": [
 		{
 			"id": "384423f4-75c1-ec11-997e-0050f279c413",
