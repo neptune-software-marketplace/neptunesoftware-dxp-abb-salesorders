@@ -8,7 +8,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-salesorders",
 	"description": "Manage sales orders with tools for creation, review, approval, and dynamic PDF generation.",
-	"ver": "25.02.14.1225",
+	"ver": "25.02.17.0941",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": "24.11.0-rc.4",
@@ -30,8 +30,8 @@
 			"apiGroup": "cab80353-0cf8-4f74-b220-85365b207fd9"
 		},
 		{
-			"id": "9641c022-a13b-429d-9738-389b5947a506",
-			"name": "neptune-salesorders-orders-data-API",
+			"id": "1667b67f-9870-4535-ba5d-d99d5b00142b",
+			"name": "neptune-salesorders-orders-API",
 			"description": "API for performing operations on the sales orders table.",
 			"apiGroup": "cab80353-0cf8-4f74-b220-85365b207fd9"
 		}
