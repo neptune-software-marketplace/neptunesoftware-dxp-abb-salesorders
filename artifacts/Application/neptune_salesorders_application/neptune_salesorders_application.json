@@ -3746,7 +3746,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "25.02.17.0945",
+	"ver": "25.02.17.1312",
 	"application": "neptune_salesorders_application",
 	"title": "Sales Orders application",
 	"description": "Sales Orders application.",

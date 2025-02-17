@@ -20,4 +20,4 @@ var options = {
     },
 };
 
-apioRestAPISendEmail(options);
+apiRestAPISendEmail(options);
