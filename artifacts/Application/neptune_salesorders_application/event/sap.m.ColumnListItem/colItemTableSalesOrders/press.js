@@ -10,7 +10,7 @@ setTimeout(function() {
     signaturePad = new SignaturePad(canvas);
     
 
-}, 200);
+}, 500);
 
 
 

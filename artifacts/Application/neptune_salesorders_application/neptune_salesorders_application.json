@@ -2046,32 +2046,6 @@
 			"fieldNo": 99999,
 			"data": [
 				{
-					"fieldNo": "de64dc52-a7dd-46df-dd3a-38928aa3d328",
-					"fieldName": "Library",
-					"fieldParent": 99999,
-					"fieldType": "neptune.folder",
-					"script": "",
-					"customComponent": false,
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": [
-						{
-							"fieldNo": "b62c026f-0c95-4a81-ad29-b5939bd301d2",
-							"fieldName": "signature_pad.min.js",
-							"fieldParent": "de64dc52-a7dd-46df-dd3a-38928aa3d328",
-							"fieldType": "neptune.Script",
-							"script": "file://script/neptune.Script/Library/signature_pad.min.js.js",
-							"customComponent": false,
-							"filePath": "signature_pad.min.js",
-							"request": [],
-							"response": [],
-							"attributes": [],
-							"data": []
-						}
-					]
-				},
-				{
 					"fieldNo": "19e0b1a3-b135-46e3-eec4-350c1e5ecd69",
 					"fieldName": "Scripts",
 					"fieldParent": 99999,
@@ -3301,13 +3275,6 @@
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "setInitLoad",
-									"grouping": "Model",
-									"value": "online",
-									"script": "",
-									"translation": []
-								},
-								{
 									"attribute": "ajaxSuccess",
 									"grouping": "Events",
 									"value": "Anonymous Function",
@@ -3746,7 +3713,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "25.02.17.1312",
+	"ver": "25.05.16.1036",
 	"application": "neptune_salesorders_application",
 	"title": "Sales Orders application",
 	"description": "Sales Orders application.",

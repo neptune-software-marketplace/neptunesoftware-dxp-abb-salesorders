@@ -85,6 +85,7 @@
 	"imageDarkNone": false,
 	"noInheritTileLayout": false,
 	"imageType": null,
+	"FIORI_STYLE": null,
 	"package": "03473732-9e9c-ed11-994a-0022489f9953",
 	"roles": [],
 	"lightTileLayouts": [],

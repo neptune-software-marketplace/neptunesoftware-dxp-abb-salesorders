@@ -11,7 +11,7 @@
 	"ver": "25.02.18.1110",
 	"enableCICD": true,
 	"internalReadOnly": false,
-	"oeVersion": "24.11.0-rc.4",
+	"oeVersion": "24.12.0-rc.4",
 	"excludeTemplateFiles": true,
 	"roles": [],
 	"apps": [
@@ -109,7 +109,18 @@
 			"description": "Central entry point for the sales order application."
 		}
 	],
-	"launchpad_layout": [],
+	"launchpad_layout": [
+		{
+			"id": "f124b70c-2655-4978-9d03-78cdd35e6d74",
+			"NAME": "neptune-salesorders-launchpad-layout-light",
+			"DESCR": null
+		},
+		{
+			"id": "7a21f962-2ee5-4467-840b-2c33d03604fb",
+			"NAME": "neptune-salesorders-launchpad-layout-dark",
+			"DESCR": null
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],

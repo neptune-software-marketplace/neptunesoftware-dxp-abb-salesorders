@@ -7,15 +7,7 @@
 	"catOrder": [
 		"927614dd-f5a6-ed11-a8e0-0022489f97c8"
 	],
-	"layout": [
-		{
-			"id": "740d1586-14e9-40d1-cc38-bf1f10860f61",
-			"css": "",
-			"name": "SO",
-			"active": true,
-			"style": "<style></style>"
-		}
-	],
+	"layout": [],
 	"config": {
 		"enhancement": "",
 		"cookieDialogEnabled": false,
@@ -43,7 +35,9 @@
 		"<script src=\"https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js\"></script>",
 		"<script src=\"/public/highsuite/modules/exporting.js\"></script>",
 		"<script src=\"https://code.highcharts.com/highcharts.js\"></script>",
-		"<script src=\"https://cdnjs.cloudflare.com/ajax/libs/push.js/1.0.8/push.min.js\" integrity=\"sha512-eiqtDDb4GUVCSqOSOTz/s/eiU4B31GrdSb17aPAA4Lv/Cjc8o+hnDvuNkgXhSI5yHuDvYkuojMaQmrB5JB31XQ==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>"
+		"<script src=\"https://cdnjs.cloudflare.com/ajax/libs/push.js/1.0.8/push.min.js\" integrity=\"sha512-eiqtDDb4GUVCSqOSOTz/s/eiU4B31GrdSb17aPAA4Lv/Cjc8o+hnDvuNkgXhSI5yHuDvYkuojMaQmrB5JB31XQ==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>",
+		"",
+		""
 	],
 	"customTheme": null,
 	"isExternal": false,
@@ -66,7 +60,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "25.02.11.1058",
+	"ver": "25.05.16.1036",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -75,13 +69,14 @@
 	"pwa_desktopScreenshotNarrow": null,
 	"pwa_displayMode": null,
 	"pwa_themeColor": null,
-	"layout_light": null,
-	"layout_dark": null,
+	"layout_light": "f124b70c-2655-4978-9d03-78cdd35e6d74",
+	"layout_dark": "7a21f962-2ee5-4467-840b-2c33d03604fb",
 	"layout_preference": 0,
 	"pwa_backgroundColor": null,
 	"passwordResetEmail": null,
 	"activationCodeEmail": null,
 	"noSubmenuHover": false,
+	"defaultLanguage": null,
 	"package": "03473732-9e9c-ed11-994a-0022489f9953",
 	"cat": [
 		{
