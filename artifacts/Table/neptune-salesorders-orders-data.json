@@ -64,6 +64,7 @@
 	],
 	"indices": [],
 	"foreignKeys": [],
+	"vectorStoreConfig": null,
 	"name": "neptune-salesorders-orders-data",
 	"description": "Table for storing the sales orders data.",
 	"ver": "25.02.11.1101",
